@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
+'''
+Cody Hart
+Tom Manser
+Drew Waszak
 
+Question 1:
+In order to know the minimum cost of the current cell you must know the costs of all
+previously traveled cells.
+
+Qustion 2:
+So each subproblem memoizes that cells shortest path to the exit. There for all preceding and
+subsequent problems will also contain the values for the minimum path.
+
+'''
 import sys
 
 if len(sys.argv) != 2:
